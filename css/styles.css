@@ -1,0 +1,301 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+
+.logo-one {
+    display: flex;
+    padding: 40px 40px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 24px 0;
+}
+
+.address-part {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #434455;
+
+}
+
+.container:hover {
+    color: #404bbf;
+}
+
+.nav-list {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-one {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-one:hover {
+    color: #404bbf;
+}
+
+.logo-one:focus {
+    color: #404bbf;
+}
+
+.studio-logo {
+    font-family: 'Raleway';
+    color: #2e2f42;
+    background-color: #ffffff;
+
+}
+
+.studio-logo:focus,
+:hover {
+    color: #404bbf;
+}
+
+.address-part {
+    font-style: normal;
+}
+
+.address-item-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-item {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.address-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+
+
+}
+
+.address-item-link:hover,
+:focus {
+    color: #404bbf;
+}
+
+nav {
+    border: 1px solid;
+}
+
+.nav-list:hover {
+    color: #404bbf;
+}
+
+span {
+    border: 1px solid;
+    background-color: #2e2f42;
+}
+
+.nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-item:hover {
+    color: #404bbf;
+}
+
+.page:hover {
+    color: #404bbf;
+
+}
+
+.page:focus {
+    color: #404bbf;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.big-box-section {
+    background-color: #2e2f42;
+}
+
+.ana-baslik {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.button-one {
+    cursor: pointer;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
+.button-one:hover,
+:focus {
+    background-color: #404BBF;
+}
+   
+.box-section{
+   border: 1px solid;
+   display: flex;
+   padding: 120px 0;
+  }
+  .part-two{
+    display: flex;
+    gap: 24px;
+  }
+.title-part-two{
+    list-style-type: none;
+}
+.little-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.text-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.part-three {
+    background-color: #f4f4fd;
+}
+
+.our-team {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    text-align: center;
+}
+.part-three-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.resim-resim {
+    background-color: #FFFFFF;
+    list-style-type: none;
+
+}
+
+.person-s {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.meslek-ler {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.our-portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    text-align: center;
+    
+}
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+.portfolio-item{
+   
+}
+
+.departman {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.alan {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+.footer {
+    color: #2e2f42;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    border: 1px solid;
+    background-color: #2e2f42;
+}
+
+
+.paragraf {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+span {
+    color: #2e2f42;
+}
