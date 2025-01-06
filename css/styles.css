@@ -87,15 +87,14 @@ header {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    display: inline-block;
     margin-bottom: 16px;
 }
 
-.logo-one:hover {
+.logo-one, .logo-two:hover {
     color: #404bbf;
 }
 
-.logo-one:focus {
+.logo-one, .logo-two:focus {
     color: #404bbf;
 }
 
@@ -279,7 +278,11 @@ span {
     background-color: #FFFFFF;
     list-style-type: none;
     width: calc((100% - 72px) / 4;
-            border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-top-right-radius: 4px; 
+    border-bottom-left-radius: 4px;
     }
 
 .uzmanlik-alanlari {
@@ -358,6 +361,18 @@ span {
     border: 1px solid;
     background-color: #2e2f42;
     padding: 100px 0;
+}
+.logo-two{
+    display: inline-block;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+    margin-bottom: 16px;
 }
 
 
